@@ -27,7 +27,8 @@
 	font-family: colonna mt;
 	transition-duration: 2s;
 	/*background-color: green;*/
-	background: linear-gradient(to right, #61ba6d, #83c331);
+	/*background: linear-gradient(to right, #61ba6d, #83c331);*/
+	background:DodgerBlue;
 	color: white;
 
 
