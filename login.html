@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login</title>
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<style>
+    .box{
+    	width:30%;
+    	height:420px;
+    	margin-top:110px;
+	    /*box-sizing: border-box;*/
+         /*box-shadow: 0 10px 25px rgba(0,0,0,.5);*/
+         box-shadow: 0 10px 25px rgba(0,0,0,.5);
+	}
+    input{
+       padding:15px;
+       border:none;
+       border-bottom:1px solid lightgray;
+       outline:none;
+       width:240px;
+    }
+    ::placeholder{
+    	color:gray;
+    	font-size: 18px;
+    }
+    .form-group i{
+    	font-size:20px;
+    }
+    button{
+    	background:#25476A;
+    	font-size:18px;
+    	padding: 10px;
+    	border:none;
+    	border-radius:4px;
+    	margin-top:20px;
+    	width:260px;
+    }
+    @media(max-width: 768px){
+		.box{
+			margin-top:20px;
+			margin-left:15px;
+			width:90%;	
+		}
+		input{
+			width:90%;
+		}
+		button{
+			width:90%;
+
+		/*}*/
+	}
+	
+        /*background-color: green;*/
+	}
+    nav,a{
+        color:white;
+        /*background-color: green;*/
+    }
+    a.btn1{
+        padding: 10px 20px;
+        background-color: lightskyblue;
+        color:white;
+        text-decoration: none;
+        /*margin-top: 40px;*/
+        margin-top: 10px 10px;
+        /*margin-bottom: 30px;  */
+}
+a.forget{
+    color:skyblue;
+}
+a.forget:hover{
+	color:tomato;
+}
+
+</style>
+<body>
+	<div class="container nav">
+<nav class="navbar navbar-fixed-top navbar container-fluid" style="background-color: tomato;">
+	<div class="container-fluid ">
+		<div class="navbar-header">
+			    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-onl"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+		</div>
+
+		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+             <ul class="nav navbar-nav lead">
+				<li class="nav-item"><a href="#Home">Home</a></li>
+				<li class="nav-item"><a href="#Department">Department</a></li>
+				<li class="nav-item"><a href="#Addmision">Addmision</a></li>
+				<li class="nav-item"><a href="#About">About</a></li>
+				<li class="nav-item"><a href="#Contact">Contact</a></li>
+			</ul>
+			<ul class="nav navbar-nav  navbar-right lead ">
+				<li class="nav-item"><a href="#Register"><i class="glyphicon glyphicon-user"></i>Register</a></li>
+				<li class="nav-item"><a href="#sign"><i class="glyphicon glyphicon-log-in"></i> sign in</a></li>
+			</ul>
+		</div>
+</div>	
+</nav>
+</div>
+    <div class="container">
+    	<div class="row">
+    		<div class="col-lg-4 col-lg-offset-4 box ">
+						<a href="index.html" class="forget" style="text-align: left; text-decoration: none;">Go to Back</a>
+    			<form class="text-center" method="post">
+
+    				<div class="form-group">
+    					<h2 class="text-center" style="margin-top: 50px;"><b>Login</b></h2>
+                        <i class="fa fa-user" aria-hidden="true"></i>
+           	            <input type="text" required="" name="username" placeholder="Username" style="margin-top:30px">
+    				</div>
+    				<div class="form-group">
+    					<i class="fa fa-lock" aria-hidden="true"></i>
+           	            <input name="password" required="" type="Password" placeholder="Password">
+    				</div>
+    				<div class="form-group">
+          	            <button type="submit" style="color:#fff;text-decoration:none">Sign in</button> 	
+                    </div>
+                    <a href="#" style="text-decoration: none;" class="forget">Forget Password</a><br><br> 
+                      <a href="#" style="text-decoration: none;" class="forget">Sign Up</a>   
+    			</form>
+    		</div>
+    	</div>
+    </div><br><br><br>
+    <div id="Contact" style="background-color:#7B68EE;">
+ 
+<div class="container-fluid bd-dark text-center">
+    <div class="row">
+        <div class="col-md-3 ">
+            <h2 style="color:white;">About us</h2><hr>
+            <ul class="list-unstyled">
+                <li><h4><a href="#Home">Home</a></h4></li><br>
+                <li><h4><a href="#About">About</a></h4></li><br>
+                <li><h4><a href="#Services">Services</a></h4></li><br>
+            </ul>
+        </div>
+        
+        <div class="col-md-3 ">
+                <h2 style="color:white;">Terms&Conditions</h2><hr>
+            <ul class="list-unstyled">
+                <li><h4><a href="#Terms">Terms of Uses</a></h4></li><br>
+                <li><h4><a href="#Policy">Privacy Policy</a></h4></li><br>
+                <li><h4><a href="#Services">Services Agreement</a></h4></li><br>
+            </ul>
+        </div>
+        <div class="col-md-3 ">
+                <h2 style="color:white;">Smart Learning</h2><hr>
+            <ul class="list-unstyled">
+                <li><h4><a href="#Personality">Personality</a><h4></li><br>
+                <li><h4><a href="#pl">Placement</a></h4></li><br>
+                <li><h4><a href="#Skill">Skill</a></h4></li><br>
+                
+            </ul>
+        </div>
+        
+        <div class="col-md-3 ">
+            <h2 style="color:white;">Contact Us</h2><hr>
+            <ul class="list-unstyled">
+                <li><h4><a href="#Tel">Tel:91+9997361676,9458628254</a></h4></li><br>
+                <li><h4><a href="#support">support@rbscollege.com</a></h4></li><br>
+                
+            </ul>
+        </div>
+        </div>
+    </div>
+    
+</div>
+    
+
+     <hr>
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-lg-12">
+                    <ul class="list-inline demo">
+                        <li>
+                            
+                            <a href="#" style="color:skyblue;">Home</a>
+                        </li>
+                       
+                        <li>
+                            <a href="#about" style="color:skyblue;">About</a>
+                        </li>
+                        <li>
+                            <a href="#services" style="color:skyblue;">Services</a>
+                        </li>
+                     
+                        <li>
+                            <a href="#contact" style="color:skyblue;">Contact</a>
+                        </li>
+                    </ul>
+                    <p class=" success small">Copyright &copy; RBSCOLLEGE.2019 All Rights Reserved</p>
+                <!-- sdfghjkl;0 -->
+
+                    <ul class="list-inline ">
+                        <li>
+                            <a href="https://twitter.com/SBootstrap" class="btn1"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/IronSummitMedia/startbootstrap" class="btn1"><i class="fa fa-github fa-fw"></i> <span >Github</span></a>
+                        </li>
+                        <li>
+                            <a href="www.linkedin.com" class="btn1"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">Linkedin</span></a>
+                        </li>
+                    </ul>
+                <!-- dfghjk -->
+                </div>
+            </div>
+        </div>
+        <hr>
+
+</body>
+
+
+
+</html>

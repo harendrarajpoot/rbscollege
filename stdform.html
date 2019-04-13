@@ -1,0 +1,282 @@
+	<!-- <!DOCTYPE html> -->
+	<html>
+	<head>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+<link rel="stylesheet" type="text/css" href="style.css">
+	<style>
+	
+a.next:link,a:visited{
+	background-color: green;
+	color:white;
+	padding: 10px 35px;
+	text-decoration: none;
+
+}
+a:hover{
+	background-color: red;
+	color:white;
+
+}
+nav,a
+{
+	color:white;
+}
+a.btn1{
+		padding: 10px 20px;
+		background-color: lightskyblue;
+		color:white;
+		text-decoration: none;
+		/*margin-top: 40px;*/
+		margin-top: 10px 10px;
+		/*margin-bottom: 30px;	*/
+}
+label{
+	font-size: 15px;
+	font-family: serif;
+	color: gray;
+}
+/*.services{
+	background-color: green;
+	margin-top: 10px 20px;
+}*/
+	</style>
+  </head>
+  <body>
+  	<div class="container">
+  		<nav class="navbar navbar-fixed-top navbar container-fluid" style="background-color: tomato;">
+	<div class="container-fluid ">
+		<div class="navbar-header">
+			    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-onl"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+		
+		</div>
+		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              
+	<ul class="nav navbar-nav lead">
+		<li class="nav-item"><a href="#Home">Home</a></li>
+		<li class="nav-item"><a href="#Department">Department</a></li>
+		<li class="nav-item"><a href="#Addmision">Addmision</a></li>
+		<li class="nav-item"><a href="#About">About</a></li>
+		<li class="nav-item"><a href="#Contact">Contact</a></li>
+		<!-- <li class=""><a href="#Courses">Courses</a> -->
+
+		
+	</ul>
+
+	<ul class="nav navbar-nav  navbar-right lead ">
+		
+		<!-- <li class="nav-item"><a href="#Event">Event</a></li> -->
+		<!-- <li class="nav-item"><a href="#help">help</a></li> -->
+		
+		<li class="nav-item"><a href="#Register"><i class="glyphicon glyphicon-user"></i>Register</a></li>
+		<li class="nav-item"><a href="#sign"><i class="glyphicon glyphicon-log-in"></i> sign in</a></li>
+	</ul>
+</div>
+</div>	
+
+</nav>
+  		
+  	</div>
+  	<br><br>
+	<div class="container ">
+		<div class="page-header text-center info">
+			<h2>Student Information:</h2>
+			
+		</div>
+    <form class="form-inline" class="stdform">
+      <div class="row ">
+				      <div class="col-md-2 col-sm-2 col-lg-4">
+				        <label>First Name:</label>
+				        <input type="text" name="firstname" required="required" class="stdform" >
+				      </div>
+				      <div class="col-md-4 col-sm-4 col-lg-4">
+				        <label>Last Name:</label>
+				        <input type="text" name="lastname"required="required"class="stdform">
+				      </div>
+
+				      <div class="col-md-4 col-sm-4 col-lg-4">
+				        <label>Father's Name:</label>
+				        <input type="text" name="fathername"required="required" class="stdform">
+				    </div>
+    </div>
+      <div class="row">
+			        <div class="col-md-4 col-sm-4 col-lg-4 ">
+			        <label>Mother's Name:</label>
+			        <input type="text" name="mothername"required="required"class="stdform">
+			      </div>
+			      <div class="col-md-4 col-sm-4 col-lg-4 form-group">
+			        <label>Date Of Birth: </label>
+			        <input type="text" name="dateofbirth"required="required" class="stdform">
+			      </div>
+
+			      <div class="col-md-4 col-sm-4 col-lg-4"required="required" class="stdform">
+			        <label>Email ID:</label>
+			        <input type="Email" name="email"required="required" class="stdform">
+			      </div>
+	</div>
+	<div class="row">
+			      <div class="col-md-4 col-sm-4 col-lg-4 ">
+			        <label>Mobile Number:</label>
+			        <input type="Number" name="mobile" required="required" class="stdform">
+			      </div>
+			      <div class="col-md-4 col-sm-4 col-lg-4 ">
+			        <label>Aadhar Number:</label>
+			        <input type="Number" name="aadhar"required="required" class="stdform">
+			      </div>
+			      <div class="col-md-4 col-sm-4 col-lg-4 ">
+			        <label>Father's Mobile:</label>
+			        <input type="Number" name="fathermobile"required="required" class="stdform">
+			      </div>
+      </div>
+      <div class="row">
+			      <div class="col-md-4 col-sm-4 col-lg-4 ">
+			        <label>City:</label>
+			        <input type="text" name="city" required="required" class="stdform">
+			      </div>
+			      <div class="col-md-4 col-sm-4 col-lg-4 ">
+			        <label>Pin Code:</label>
+			        <input type="Number" name="pincode"required="required" class="stdform" >
+			      </div>
+			      <div class="col-md-4 col-sm-4 col-lg-4 ">
+			        <label>State:</label>
+			        <input type="text" name="state"required="required" class="stdform">
+			      </div>
+      </div>
+      <div class="row">
+			      <div class="col-md-4 col-sm-4 col-lg-4 ">
+			        <label>Course:</label>
+			        <input type="text" name="city" required="required" class="stdform">
+			      </div>
+			      <div class="col-md-4 col-sm-4 col-lg-4 ">
+			        <label>Pan Card:</label>
+			        <input type="text" name="pincode"required="required"class="stdform" >
+			      </div>
+			      <div class="col-md-4 col-sm-4 col-lg-4 ">
+			        <label>Address:</label>
+			        <input type="text" name="state"required="required" class="stdform" >
+			      </div>
+      </div>
+
+
+      <div class="row">
+      	<div class="form-group col-lg-4 col-sm-4 col-md-4">
+      		<label>Select Gender</label>
+				    <select class="form-control">
+						<option>Male</option>
+				    	<option>Female</option>
+				    </select>
+      	</div>
+      	
+      	<div class="col-lg-4 col-sm-4 col-md-4">
+      		
+      		<a href="index.html" class="pull-left Previous next">Previous</a>	
+      	</div>
+      	<div class="col-lg-4 col-sm-4 col-md-4">
+      		<a href="Qualification.html" class="pull-right next">Next</a>
+    
+      	</div>
+      </div>
+   
+
+
+		
+<!-- </div> -->
+     </form>
+  </div>
+  <br><br>
+  <div id="Contact" style="background-color:#7B68EE;">
+ 
+<div class="container-fluid bd-dark text-center">
+	<div class="row">
+		<div class="col-md-3 ">
+			<h2 style="color:white;">About us</h2><hr>
+			<ul class="list-unstyled">
+				<li><h4><a href="#Home">Home</a></h4></li><br>
+				<li><h4><a href="#About">About</a></h4></li><br>
+				<li><h4><a href="#Services">Services</a></h4></li><br>
+			</ul>
+		</div>
+		
+		<div class="col-md-3 ">
+				<h2 style="color:white;">Terms&Conditions</h2><hr>
+			<ul class="list-unstyled">
+				<li><h4><a href="#Terms">Terms of Uses</a></h4></li><br>
+				<li><h4><a href="#Policy">Privacy Policy</a></h4></li><br>
+				<li><h4><a href="#Services">Services Agreement</a></h4></li><br>
+			</ul>
+		</div>
+		<div class="col-md-3 ">
+				<h2 style="color:white;">Smart Learning</h2><hr>
+			<ul class="list-unstyled">
+				<li><h4><a href="#Personality">Personality</a><h4></li><br>
+				<li><h4><a href="#pl">Placement</a></h4></li><br>
+				<li><h4><a href="#Skill">Skill</a></h4></li><br>
+				
+			</ul>
+		</div>
+		
+		<div class="col-md-3 ">
+			<h2 style="color:white;">Contact Us</h2><hr>
+			<ul class="list-unstyled">
+				<li><h4><a href="#Tel">Tel:91+9997361676,9458628254</a></h4></li><br>
+				<li><h4><a href="#support">support@rbscollege.com</a></h4></li><br>
+				
+			</ul>
+		</div>
+		</div>
+	</div>
+	
+</div>
+	
+
+	 <hr>
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-lg-12">
+                    <ul class="list-inline next">
+                        <li>
+                            
+                            <a href="#">Home</a>
+                        </li>
+                       
+                        <li>
+                            <a href="#about">About</a>
+                        </li>
+                        <li>
+                            <a href="#services">Services</a>
+                        </li>
+                     
+                        <li>
+                            <a href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                    <p class=" success small">Copyright &copy; RBSCOLLEGE.2019 All Rights Reserved</p>
+                <!-- sdfghjkl;0 -->
+
+                    <ul class="list-inline ">
+                        <li>
+                            <a href="https://twitter.com/SBootstrap" class="btn1"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/IronSummitMedia/startbootstrap" class="btn1"><i class="fa fa-github fa-fw"></i> <span >Github</span></a>
+                        </li>
+                        <li>
+                            <a href="www.linkedin.com" class="btn1"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">Linkedin</span></a>
+                        </li>
+                    </ul>
+                <!-- dfghjk -->
+                </div>
+            </div>
+        </div>
+        <hr>
+
+	</body>
+	</html>

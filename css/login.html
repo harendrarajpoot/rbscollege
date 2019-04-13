@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login Page</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<style>
+	
+	input{
+		padding-bottom: 10px;
+		margin-top: 30px;
+		width: 80%;
+		border: none;
+		outline: none;
+		border-bottom: 2px solid gray;
+
+
+	}
+		div.form{
+			background-color: darkslateblue;
+		max-width: 400px;
+		margin-top:200px;
+		text-align: center;
+		padding-bottom: 100px;
+		}
+		.box{
+    	width:30%;
+    	height:420px;
+    	margin-top:110px;
+	    /*box-sizing: border-box;*/
+         /*box-shadow: 0 10px 25px rgba(0,0,0,.5);*/
+         box-shadow: 0 10px 25px rgba(0,0,0,.5);
+	}
+		/*a{
+			padding: 10px 30px;
+			margin-top: 50px;
+			background-color:blue;
+		}*/
+	
+
+</style>
+</head>
+<body>
+<div class="container form">
+	
+
+	<form class="form-group">
+
+		<div class="row">
+			<h2>Login</h2>
+			<div class="col-md-12 col-lg-12 col-sm-12 form-group ">
+				
+				<i class="fa fa-user" style="font-size: 20px;"></i>
+				<!-- <i class="icon-cog"></i> -->
+				<input type="text" name="name" placeholder="Username">
+			</div>
+		</div>
+			<div class="row">
+				<div class="col-md-12 col-lg-12 col-sm-12 form-group">
+					<i class="fa fa-lock" style="font-size: 20px;"></i>
+				<input type="password" name="password" placeholder="Password">
+				</div>
+			</div>
+			<br>
+			<div class="col-sm-12 col-lg-12 col-lg-12">
+				<button type="submit" class="btn btn-primary btn-block">Sign In</button>
+			</div>
+			
+
+		</form>
+</div>
+</body>
+</html>
